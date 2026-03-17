@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-16T20:51:13.810256+00:00",
+  "source": "wazuh_ml_ids_integration",
+  "wazuh": {
+    "id": "example-alert-id",
+    "rule_id": "99999",
+    "rule_description": "Example malicious event",
+    "agent": "ubuntu-VMware-Virtual-Platform"
+  },
+  "ml_prediction": {
+    "label": "Attack",
+    "class": 1,
+    "confidence": 0.881,
+    "missing_feature_count": 12,
+    "missing_features": [
+      "Flow Bytes/s",
+      "Flow IAT Mean"
+    ]
+  }
+}

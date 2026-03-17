@@ -1,0 +1,24 @@
+{
+  "Flow Duration": [
+    "data.flow.duration",
+    "data.netflow.duration",
+    "data.win.eventdata.FlowDuration"
+  ],
+  "Total Fwd Packets": [
+    "data.flow.packets_toserver",
+    "data.netflow.packets"
+  ],
+  "Total Backward Packets": [
+    "data.flow.packets_toclient"
+  ],
+  "Destination Port": [
+    "data.dest_port",
+    "data.dst_port",
+    "data.win.eventdata.DestinationPort"
+  ],
+  "Protocol": [
+    "data.proto",
+    "data.protocol",
+    "network.transport"
+  ]
+}

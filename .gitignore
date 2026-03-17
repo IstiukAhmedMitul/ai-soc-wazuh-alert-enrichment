@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Runtime logs / temp
+*.log
+*.tmp
+*.bak
+
+# Screenshots placeholder folder keeps manual captures only
+!docs/screenshots/
+
+# Do not commit large trained artifacts unless intended
+# *.pkl
